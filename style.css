@@ -1,55 +1,40 @@
-#perfume-gabrielle-essence-eau-de-parfum-text {
-    margin-top: 20px;
-  }
-  
-  #perfume-gabrielle-essence-eau-de-parfum-text h1,
-  #perfume-gabrielle-essence-eau-de-parfum-text h2 {
-    text-align: center;
-  }
-  
-  #perfume-gabrielle-essence-eau-de-parfum-text button {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #perfume-gabrielle-essence-eau-de-parfum-text h3 {
-    margin-top: 20px;
-    text-align: center;
-  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-  
-  #perfume-gabrielle-essence-eau-de-parfum {
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+.section {
+    background-color: rgb(245, 230, 210);
+    display: flex;
+}
+
+.PERFUME {
+    max-width: 50%;
+    margin-left: auto;
+}
+
+img {
     max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
+    object-fit: cover;
+}
 
-  #perfume-gabrielle-essence-eau-de-parfum img {
-    width: 100%;
-    height: auto;
-  }
 
-  #perfume-gabrielle-essence-eau-de-parfum-text {
-    margin-top: 20px;
-  }
+.text {
+    max-width: 50%;
+    padding: 2rem 1rem;
+}
 
-  #perfume-gabrielle-essence-eau-de-parfum-text h1,
-  #perfume-gabrielle-essence-eau-de-parfum-text h2 {
-    text-align: center;
-  }
+.text h2 h1 {
+    margin-bottom: 2rem;
+}
 
-  #perfume-gabrielle-essence-eau-de-parfum-text button {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-
-  #perfume-gabrielle-essence-eau-de-parfum-text h3 {
-    margin-top: 20px;
-    text-align: center;
-  }
+.text p:first-of-type {
+    margin-bottom: 3rem;
+}
