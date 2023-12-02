@@ -11,23 +11,24 @@ body {
     font-weight: 400;
 }
 
-
-.section {
-    background-color: rgb(245, 230, 210);
-    display: flex;
-
-
-    /**width: 320px;
+.container {
+    width: 320px;
       margin: auto;
       background-color: var(--White);
       padding: 16px 0px 41px 0px;
-      border-radius: 20px;
+      border-radius: 15px;
       height: auto;
       box-shadow: 1px 10px 22px 9px rgba(0, 0, 0, 0.05);
       position: fixed;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);**/
+      transform: translate(-50%, -50%);
+}
+
+
+.section {
+    background-color: rgb(245, 230, 210);
+    display: flex;
 }
 
 .PERFUME {
