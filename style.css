@@ -12,10 +12,10 @@ body {
 }
 
 .container {
-    width: 320px;
       margin: auto;
-      background-color: var(--White);
+      background-color: rgb(245, 230, 210);
       padding: 16px 0px 41px 0px;
+      border: 1px solid white;
       border-radius: 15px;
       height: auto;
       box-shadow: 1px 10px 22px 9px rgba(0, 0, 0, 0.05);
@@ -27,8 +27,9 @@ body {
 
 
 .section {
-    background-color: rgb(245, 230, 210);
+    background-color: white;
     display: flex;
+    align-items: center;
 }
 
 .PERFUME {
@@ -45,6 +46,7 @@ img {
 .text {
     max-width: 50%;
     padding: 2rem 1rem;
+    background: white;
 }
 
 .text h2 h1 {
@@ -53,4 +55,26 @@ img {
 
 .text p:first-of-type {
     margin-bottom: 3rem;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-size: large;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+
+
+.p {
+    display: block;
+    align-items: center;
+}
+
+.number {
+  /*&  flex-direction: row;
+    font-weight: bold;
 }
