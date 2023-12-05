@@ -70,11 +70,5 @@ button {
 
 
 .p {
-    display: block;
-    align-items: center;
-}
-
-.number {
-  /*&  flex-direction: row;
-    font-weight: bold;
+    display: flex;
 }
